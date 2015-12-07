@@ -1,6 +1,5 @@
 class HomeController < ApplicationController
   def index
-  	@test = Test.create description: "rake db:migrate"
-  	@test8 = Test.create test8: "text_8_text"
+		@test10 = Test.create test10: "10"
   end
 end
