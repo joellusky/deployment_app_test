@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-		@test20 = Test.create test20: 20
+		@test32 = Test.create test32: 32
   end
 end
